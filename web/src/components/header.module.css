@@ -1,5 +1,6 @@
 @import '../styles/custom-media.css';
 @import '../styles/custom-properties.css';
+@import '../styles/colors.scss'
 
 .root {
   position: relative;
@@ -66,7 +67,7 @@
 
   @nest & ul li a {
     display: block;
-    color: inherit;
+    color: $myColor;
     text-decoration: none;
   }
 
